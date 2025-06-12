@@ -116,10 +116,15 @@ The following packages are required:
 ## __How to Set Up a Web App via Shiny__
 
 1. Open **app.R** in the RStudio Editor.
-2. Click **Publish** in the top-right corner of the RStudio Editor.
-3. Follow the on-screen steps to connect your Shiny account and add the necessary token.
+2. Click **Publish** in the top-right corner of the RStudio Editor. The following screen will load after a few seconds:
+
+<img src='images/publish_r_studio_ui.png' alt='R Studio Shiny Publish UI' width='600'/>
+
+3. Follow the on-screen steps to connect your Shiny account and add the necessary token:
 4. Click **Next**, log in if prompted, and complete the deployment process.
-5. Once published, your web app will open in a browser with a unique URL.
+5. Finally click **Publish**, your web app will open in a browser with a unique URL.
+
+<img src='images/publish_shiny.png' alt='Shiny Publish UI' width='600'/>
 
 Example: [MyFavoriteAlbums Example Web App](https://loudsandals.shinyapps.io/MyFavoriteAlbums/).
 
