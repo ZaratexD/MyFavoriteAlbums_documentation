@@ -29,7 +29,6 @@ This document is intended for users with basic knowledge of R who aim to analyze
 
 - GitHub Repository: [MyFavoriteAlbums GitHub](https://github.com/UW-Example-Student/MyFavoriteAlbums).
 - Web App Example: [MyFavoriteAlbums Web App](https://cholstro.shinyapps.io/shiny-music/).
-- Conceptual Overview: [Document Link](https://docs.google.com/document/d/1fgNaafI6imLZbBhxNX6RYj1E47kIlwQ9EtkjRaCnZHw/edit?tab=t.0).
 
 ---
 
