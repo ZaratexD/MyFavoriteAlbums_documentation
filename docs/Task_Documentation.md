@@ -1,4 +1,4 @@
-# __MyFavoriteAlbums Task Documentation__
+# __Task Documentation__
 
 ## __Overview of this Document__
 
@@ -37,9 +37,17 @@ This document is intended for users with basic knowledge of R who aim to analyze
 
 1. Open **RStudio**.
 2. Select **File > New Project**.
+
+<img src='images/project_wizard.png' alt='Screen shot of New Project Wizard R Studio' width='600'/>
+
 3. In the pop-up window, choose **Version Control** and then **Git**.
 4. Paste the repository URL `https://github.com/UW-Example-Student/MyFavoriteAlbums.git` into the **Repository URL** field. Specify the directory where the project will be stored.
+
+<img src='images/clone_git_repo.png' alt='Screen shot of Clone Git Repo' width='600'/>
+
 5. Click **Create Project**. You now have a local copy.
+
+<img src='images/r_studio_file_browser.png' alt='Screen shot of R Studio File Broswer UI' width='600'/>
 
 > **Note**: Verify that all files in your local directory match those in the GitHub repository.
 
@@ -64,7 +72,9 @@ The following packages are required:
    install.packages("dplyr")
    install.packages("ggplot2")
    ```
-3. Ensure all packages are installed before running the app to avoid errors.
+3. Ensure all packages are installed before running the app to avoid errors. You will see the following output after each install:
+
+<img src='images/r_studio_console_output.png' alt='R Studio Console Output' width='600'/>
 
 ---
 
@@ -74,31 +84,30 @@ The following packages are required:
 
 1. Open the **Data** folder within your local copy of MyFavoriteAlbums in **RStudio**.
 2. Select **album-rankings.csv** and click **View File**.
+
+<img src='images/r_view_file.png' alt='R Studio View File UI' width='600'/>
+
 3. Edit the file directly in the RStudio Source Pane. Ensure your view matches the original file structure before making changes.
+
+<img src='images/album_rankings_csv_visual.png' alt='album ranking csv visual' width='600'/>
+
 4. Delete all rows except the header (line 1).
-5. Add your data to the file, following the structure exactly:
-
-| Column Index | Column Name   | Description                         | Type       | Example            |
-|--------------|---------------|-------------------------------------|------------|--------------------|
-| 1            | Year          | Album release year                 | Integer    | 2011               |
-| 2            | Rank          | Ranking within the year            | Integer    | 1                  |
-| 3            | Album         | Name of the album                  | String     | Nostalgia, Ultra   |
-| 4            | Artist        | Artist or band name                | String     | Frank Ocean        |
-| 5            | Rating        | Album rating (0–10 scale)          | Integer    | 8                  |
-| 6            | Vinyl         | Whether owned on vinyl ("v" or blank) | Boolean    | v                  |
-| 7            | EP            | Whether the album is an EP ("EP" or blank) | Boolean | EP                 |
-| 8            | Live          | Whether the album is live ("Live" or blank) | Boolean | Live               |
-
-> **Important Note**: For names with commas, enclose them in quotation marks (e.g., `"Nostalgia, Ultra"`).
-
----
+5. Add your data to the file, following the structure exactly (see Reference).
 
 ## __How to Test Your Custom CSV File__
 
 1. Open **app.R** in the RStudio File Explorer.
+
+<img src='images/app_file_r_studio_view.png' alt='R Studio app.R file broswer view' width='600'/>
+
 2. Click **Run App** within the RStudio Editor.
+
+<img src='images/run_app.png' alt='Run App button in R Studio' width='600'/>
+
 3. A local version of the app will load. Test all tabs to ensure that your data matches the CSV file.
    - Example: Verify that the "Number One Albums" tab displays the correct rankings.
+
+<img src='images/UI_shiny_example.png' alt='Shiny UI Working Example' width='600'/>
 
 > **Note**: If issues arise, revisit the CSV file or dependencies to troubleshoot.
 

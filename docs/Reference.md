@@ -1,4 +1,4 @@
-# __MyFavoriteAlbums Reference Documentation__
+# __Reference Documentation__
 
 ## __Overview of this Document__
 
