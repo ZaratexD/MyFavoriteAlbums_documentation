@@ -92,7 +92,7 @@ The following packages are required:
 <img src='images/album_rankings_csv_visual.png' alt='album ranking csv visual' width='600'/>
 
 4. Delete all rows except the header (line 1).
-5. Add your data to the file, following the structure exactly (see Reference).
+5. Add your data to the file, following the structure exactly ([See Data Structure Reference](Reference.md#data-structure-reference)).
 
 ## __How to Test Your Custom CSV File__
 

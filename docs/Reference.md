@@ -53,8 +53,7 @@ Your CSV file must follow this structure:
 
 > **Note:** For album or artist names containing commas, use quotation marks. E.g., `"Nostalgia, Ultra"`
 
-> **Tip:** Ratings are subjective. Ranks should reflect rating order per year. You may consider scripting a rank based on rating per year if needed.
-
+> **Tip:** Ratings are subjective. Ranks should reflect rating order per year.
 ---
 
 ## __API Reference__
